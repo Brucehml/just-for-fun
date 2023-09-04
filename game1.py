@@ -1,6 +1,5 @@
 import random
 import time
-
 def intro():
     print("欢迎来到冒险游戏！")
     print("你是一名英勇的战士，现在身处在一个神秘的世界中。")
