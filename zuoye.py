@@ -9,6 +9,7 @@ students = {}
 daoru = 1
 idnum = []
 list1 = 1
+
 def dao():
     global students,daoru,idnum,list1
     file_path = filedialog.askopenfilename(filetypes=[('csv格式', '*.csv')])
