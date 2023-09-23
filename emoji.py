@@ -18,5 +18,6 @@ def get_image(emoji, text):
     img.paste(emoji_image, (600, 50))
     img.show()
 
+
 emoji = get_emoji(input_text)
 get_image(emoji, input_text)
