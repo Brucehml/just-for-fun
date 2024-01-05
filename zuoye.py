@@ -1,6 +1,7 @@
 import numpy as np
 from PIL import Image
 from pyzbar import pyzbar
+
 import cv2
 import tkinter as tk
 from threading import *
@@ -24,8 +25,7 @@ def dao():
         idnum.append(int(x.split(',')[0]))
     print(idnum)
     daoru.destroy()
-      #将var2的值赋给Listbox
-    # 创建一个list并将值循环添加到Listbox控件中
+      
     
     for item in idnum:
         list1.insert('end', str(item) + '  '+students[str(item)][0])  # 从最后一个位置开始加入值
