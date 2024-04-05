@@ -6,7 +6,6 @@ filename = ''
 def jieya(filename):  
     with zipfile.ZipFile(filename, 'r') as zipf:
         zipf.extractall('officecpassword')
-
     
 def cancel_p(path):
     f_p = path+'\\officecpassword\\ppt\\presentation.xml'
