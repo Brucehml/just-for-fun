@@ -8,15 +8,3 @@ def tick():
     clock_label.config(text=current_time)
     # 每1秒调用一次tick函数
     clock_label.after(1000, 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
