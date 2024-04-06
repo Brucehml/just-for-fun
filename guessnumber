@@ -1,5 +1,4 @@
 import random
-
 def guess_number():
     number = random.randint(1, 100)
     count = 0
@@ -15,5 +14,4 @@ def guess_number():
             print("太小了！")
     else:
         print(f"很抱歉，你没有在10次机会内猜中，答案是{number}。")
-
 guess_number()
