@@ -5,7 +5,6 @@ def intro():
     print("你是一名英勇的战士，现在身处在一个神秘的世界中。")
     print("你的目标是寻找神秘的魔法宝石，并打败邪恶的魔法师。")
     print("你的旅程刚刚开始，祝你好运！")
-    
 def player_command():
     command = input("请输入你的命令：").lower()
     if command in ["look", "examine"]:
