@@ -1,7 +1,6 @@
 import numpy as np
 from PIL import Image
 from pyzbar import pyzbar
-
 import cv2
 import tkinter as tk
 from threading import *
