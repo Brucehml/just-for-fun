@@ -11,3 +11,4 @@ start = str(start)[0:10]
 stock = ts.get_hist_data('300104',start,end)#选取一支股票
 stock['close'].plot(legend=True ,figsize=(10,4))
 plt.show()
+#2024.4.10
