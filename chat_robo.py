@@ -12,7 +12,6 @@ def hobby():
 def good_bye():
     return random.choice(["再见，祝你有一个美好的一天。", "下次再聊！"])
 
-
 while True:
     user_input = input("你好，有什么可以帮您？")
     if "你好" in user_input:
