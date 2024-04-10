@@ -1,5 +1,5 @@
 import random,time
-
+#2024.4.10
 target_number = random.randint(1, 20)
 print("我想了一个数字，你猜猜是几？")
 while True:
