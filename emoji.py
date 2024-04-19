@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 
 #2024.4.10
-
+#2024.4.19
 emojis = ["❤️", "?", "?", "?", "?", "?", "?"]
 font = ImageFont.truetype("arial.ttf", 64)
 input_text = "I love Python!"
