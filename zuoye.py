@@ -9,6 +9,7 @@ students = {}
 daoru = 1
 idnum = []
 list1 = 1
+#1
 
 def dao():
     global students,daoru,idnum,list1
