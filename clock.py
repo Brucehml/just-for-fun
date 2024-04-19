@@ -6,5 +6,5 @@ def tick():
     current_time = time.strftime('%H:%M:%S')
     # 更新标签文本
     clock_label.config(text=current_time)
-    # 每1秒调用一次tick函数
+    # 每1秒调用一次 tick 函数
     clock_label.after(1000, 
