@@ -2,7 +2,7 @@ import zipfile,os,shutil
 import subprocess
 import xml.etree.ElementTree as ET
 filename = ''
-    
+# 4.20
 def jieya(filename):  
     with zipfile.ZipFile(filename, 'r') as zipf:
         zipf.extractall('officecpassword')
