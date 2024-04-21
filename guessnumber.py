@@ -15,3 +15,4 @@ def guess_number():
     else:
         print(f"很抱歉，你没有在10次机会内猜中，答案是{number}。")
 guess_number()
+#2024.4.21
