@@ -7,3 +7,4 @@ image = cv2.imread("13.jpg")
 #识别结果
 print(HyperLPR_plate_recognition(image))
 #2024.4.21
+#2024.5.2
